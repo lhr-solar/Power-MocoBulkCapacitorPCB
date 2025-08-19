@@ -1,0 +1,3390 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0a13987d-25e1-488e-b68a-82b67c04493a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+VDC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VDC"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+VDC_0_1"
+				(polyline
+					(pts
+						(xy -1.143 3.175) (xy 1.143 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 245.11 83.82) (xy 251.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0318020-3088-4808-b309-a4820e1f7f10")
+	)
+	(wire
+		(pts
+			(xy 245.11 86.36) (xy 251.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd62ae4-6822-4ab6-95d2-7499c72054e6")
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 245.11 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45592ea9-d917-410e-b058-a44892ad82e3")
+		(property "Reference" "#PWR0129"
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 238.76 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18fa6ad-348a-4ff7-8811-dd5da850f1af")
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 256.54 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f7c4c16-7fc7-48c0-8a75-7ea2d7ac389c")
+		(property "Reference" "J1"
+			(at 259.08 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 259.08 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6974f7a2-10ac-49d7-bd8d-804890cbab1f")
+		)
+		(pin "2"
+			(uuid "38e65fef-f950-45a1-8af0-c5cd74658221")
+		)
+		(instances
+			(project ""
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb66dcf-2878-4bad-8681-7eea2b74c9f1")
+		(property "Reference" "#PWR0130"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c163d0d-253a-4eb7-96a5-e80f446a63fa")
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 139.7)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05bcec76-dd35-4a09-bca1-2f91f146ef34")
+		(property "Sheetname" "Cap String57"
+			(at 181.61 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 181.61 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "59")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 67.31)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06cb1190-d49f-460b-abfe-e46c66599cba")
+		(property "Sheetname" "Cap String6"
+			(at 21.59 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 21.59 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 73.66)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09e419e8-5b0a-4fd2-9871-54b93818b842")
+		(property "Sheetname" "Cap String28"
+			(at 83.82 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 83.82 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 82.55)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e2c6b40-b1ad-47a9-a605-704aa6037c0b")
+		(property "Sheetname" "Cap String9"
+			(at 50.8 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 50.8 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 128.27)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f10c32e-5050-4105-9cba-3cc5c36536cf")
+		(property "Sheetname" "Cap String34"
+			(at 87.63 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 87.63 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 184.15)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13a06c77-0c0c-4ff5-b406-1b725ba93885")
+		(property "Sheetname" "Cap String41"
+			(at 121.92 183.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 121.92 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 38.1)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "142b558a-879f-4abb-899f-e9c713a9db12")
+		(property "Sheetname" "Cap String45"
+			(at 175.26 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 175.26 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 35.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14ee8383-a9a6-4472-be93-fb61446be546")
+		(property "Sheetname" "Cap String2"
+			(at 20.32 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 90.17)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18919b00-d483-44d4-a79e-16192b5ed371")
+		(property "Sheetname" "Cap String51"
+			(at 176.53 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 176.53 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 121.92)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19560f54-d314-4625-8230-90ae612b907f")
+		(property "Sheetname" "Cap String54"
+			(at 151.13 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 151.13 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "56")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 17.78)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ac05468-d74a-4975-801d-825835667dde")
+		(property "Sheetname" "Cap String42"
+			(at 146.05 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 146.05 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 55.88)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ad2e3b7-093b-43d2-bdf1-3df68756eca3")
+		(property "Sheetname" "Cap String47"
+			(at 175.26 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 175.26 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 148.59)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "230df76c-634c-4113-8537-a8641e8b2a6b")
+		(property "Sheetname" "Cap String37"
+			(at 118.11 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 118.11 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 121.92)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "247d3ba9-837d-4e9a-88c6-436aa229e7ab")
+		(property "Sheetname" "Cap String55"
+			(at 179.07 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 179.07 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "57")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 55.88)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "283f07bc-ac60-4f5e-a4d2-3f91018df7e7")
+		(property "Sheetname" "Cap String46"
+			(at 147.32 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 147.32 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 166.37)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e3ede28-28e3-468c-986f-cfb0432aae1a")
+		(property "Sheetname" "Cap String39"
+			(at 121.92 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 121.92 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 163.83)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31d97651-e262-4722-8ee1-40ce8f44d157")
+		(property "Sheetname" "Cap String19"
+			(at 57.15 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 57.15 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 182.88)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34cba1f4-1350-4170-8da6-5478b9f2b16b")
+		(property "Sheetname" "Cap String40"
+			(at 88.9 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 88.9 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 105.41)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "379446cf-2746-4d61-860f-72f77f9c1e3b")
+		(property "Sheetname" "Cap String53"
+			(at 180.34 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 180.34 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "55")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 90.17)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "399178a8-3ac8-41e3-9acc-8295fcf83fed")
+		(property "Sheetname" "Cap String50"
+			(at 147.32 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 147.32 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 20.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47d7749f-663b-40be-9540-25e8ac1b0b0b")
+		(property "Sheetname" "Cap String"
+			(at 19.05 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 19.05 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 147.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e8cd376-4336-4d6d-b9ec-02f6319a88a8")
+		(property "Sheetname" "Cap String17"
+			(at 55.88 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 55.88 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 72.39)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5437d22c-b444-4008-945a-d67ab3a81096")
+		(property "Sheetname" "Cap String29"
+			(at 111.76 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 111.76 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 36.83)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "549dbe65-977d-4634-ade1-0f58bbf03f10")
+		(property "Sheetname" "Cap String24"
+			(at 82.55 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 82.55 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 163.83)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54b3cd19-2b29-42fe-914f-ac30fad20236")
+		(property "Sheetname" "Cap String18"
+			(at 20.32 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 67.31)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55dc4e1e-64b3-40bc-9b8a-f21a47c86baf")
+		(property "Sheetname" "Cap String7"
+			(at 49.53 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 49.53 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 16.51)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bc99437-e74a-48f9-90af-b34b2c27c6e7")
+		(property "Sheetname" "Cap String61"
+			(at 237.49 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 237.49 24.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "63")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 55.88)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ca945fe-6a76-4cba-a3a0-5757f051729f")
+		(property "Sheetname" "Cap String26"
+			(at 82.55 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 82.55 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 147.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e4c30e9-0c20-4f40-8513-334a71c53e19")
+		(property "Sheetname" "Cap String36"
+			(at 87.63 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 87.63 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63d99b66-9397-4ae2-9a89-edacbb5fc8ab")
+		(property "Sheetname" "Cap String4"
+			(at 21.59 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 21.59 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 139.7)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6500c310-cfe6-4d4a-9154-edc900284a68")
+		(property "Sheetname" "Cap String56"
+			(at 151.13 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 151.13 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "58")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 91.44)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6690e848-fa12-44db-8b1e-035dfa0f216d")
+		(property "Sheetname" "Cap String30"
+			(at 86.36 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 86.36 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 35.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6755f21b-4dee-416e-8367-030d71b50056")
+		(property "Sheetname" "Cap String25"
+			(at 109.22 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 109.22 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 180.34)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cde4a6d-965b-4f65-bbc5-a967f96b1302")
+		(property "Sheetname" "Cap String20"
+			(at 20.32 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 17.78)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6db43753-e31f-4d43-9900-31988abe7b2c")
+		(property "Sheetname" "Cap String44"
+			(at 173.99 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 173.99 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 106.68)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74b07f05-f89c-4ec7-b710-a007921fc526")
+		(property "Sheetname" "Cap String52"
+			(at 148.59 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 148.59 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "54")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 115.57)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "756317b9-b681-47f8-8dde-db89b6577e84")
+		(property "Sheetname" "Cap String13"
+			(at 54.61 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 54.61 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 128.27)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a2550ff-bfcf-471a-b0ed-32f121f064db")
+		(property "Sheetname" "Cap String35"
+			(at 118.11 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 118.11 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 72.39)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d60c7cb-f74f-4808-844c-26d316a57b6a")
+		(property "Sheetname" "Cap String49"
+			(at 175.26 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 175.26 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 109.22)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f2c169b-5019-42d0-a025-d493b85accf2")
+		(property "Sheetname" "Cap String32"
+			(at 85.09 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 85.09 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 55.88)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81225b81-feea-4604-9a6f-e9d2144379cc")
+		(property "Sheetname" "Cap String27"
+			(at 110.49 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 110.49 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 154.94)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90820402-b2f1-47e9-9ca9-e624504ba3c0")
+		(property "Sheetname" "Cap String58"
+			(at 153.67 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 153.67 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 88.9)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "986f41ce-949a-477a-b4cd-ce0f7b78a517")
+		(property "Sheetname" "Cap String31"
+			(at 113.03 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 113.03 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 130.81)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a9f79f1-dae7-4451-8477-2b8aa1ca75e1")
+		(property "Sheetname" "Cap String15"
+			(at 55.88 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 55.88 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 97.79)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c8ba4d5-4532-431a-815f-05f2b77e1834")
+		(property "Sheetname" "Cap String11"
+			(at 52.07 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 52.07 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a08daa83-8892-4d9e-ab1e-b465667b7f7b")
+		(property "Sheetname" "Cap String65"
+			(at 241.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 241.3 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "67")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 154.94)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a63bfcf9-75bb-461d-97b8-2302f1179db3")
+		(property "Sheetname" "Cap String59"
+			(at 182.88 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 182.88 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "61")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 35.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a90249d5-e521-4fd6-a6f5-c2d69a002629")
+		(property "Sheetname" "Cap String63"
+			(at 240.03 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 240.03 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "65")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 20.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad1b088c-9c46-44c1-9dfc-2ecaf2c4c02b")
+		(property "Sheetname" "Cap String1"
+			(at 45.72 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 45.72 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 165.1)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd5d8aa5-08b0-497a-8963-449761807d5a")
+		(property "Sheetname" "Cap String38"
+			(at 88.9 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 88.9 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 20.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf4d9b03-806f-41ba-a795-a6e1004276d5")
+		(property "Sheetname" "Cap String22"
+			(at 82.55 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 82.55 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2a85003-e972-4c62-b1d7-5998704ebf40")
+		(property "Sheetname" "Cap String64"
+			(at 208.28 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 208.28 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "66")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 17.78)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c947921d-501c-4931-8989-01e7b101d3d3")
+		(property "Sheetname" "Cap String60"
+			(at 208.28 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 208.28 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "62")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 114.3)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca2ac906-67ec-4abf-8696-920ec9ff9cf6")
+		(property "Sheetname" "Cap String12"
+			(at 20.32 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 19.05)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca47cd1a-267a-4e69-b586-5c2f9f60c0af")
+		(property "Sheetname" "Cap String23"
+			(at 104.14 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 104.14 27.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 107.95)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb3277f0-2871-4862-a74a-76e42f21039e")
+		(property "Sheetname" "Cap String33"
+			(at 111.76 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 111.76 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 99.06)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce2d9eca-ddf5-403f-90d6-1329ba413dd6")
+		(property "Sheetname" "Cap String10"
+			(at 21.59 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 21.59 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 35.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5bc6c49-661a-42fc-9856-229a47714ca7")
+		(property "Sheetname" "Cap String3"
+			(at 46.99 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 46.99 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 82.55)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1e373b1-6958-4cf5-af42-ee3da3ee1179")
+		(property "Sheetname" "Cap String8"
+			(at 21.59 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 21.59 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 180.34)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9bfb24c-44cc-4430-8ef9-f9b6ab7214c6")
+		(property "Sheetname" "Cap String21"
+			(at 58.42 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 58.42 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea244a13-63b0-458f-85e6-8db0e613e22c")
+		(property "Sheetname" "Cap String5"
+			(at 48.26 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 48.26 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 35.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eac406d6-3c5b-4edc-b195-0027b47b3b61")
+		(property "Sheetname" "Cap String62"
+			(at 208.28 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 208.28 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "64")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 147.32)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edf7e8e6-d5c9-4789-b85a-3e6d959d044c")
+		(property "Sheetname" "Cap String16"
+			(at 20.32 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 130.81)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2b55851-b3f1-4c5d-adda-ae55fe3352f7")
+		(property "Sheetname" "Cap String14"
+			(at 20.32 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 20.32 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 73.66)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7c750ff-60ee-4764-92a0-4421447ae2a8")
+		(property "Sheetname" "Cap String48"
+			(at 147.32 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 147.32 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 36.83)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe2acff1-db2c-4d87-b177-c6014c1eb92d")
+		(property "Sheetname" "Cap String43"
+			(at 146.05 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_string.kicad_sch"
+			(at 146.05 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power-MocoBulkCapacitorPCB"
+				(path "/0a13987d-25e1-488e-b68a-82b67c04493a"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
