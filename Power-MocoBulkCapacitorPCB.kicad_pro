@@ -502,7 +502,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "docs/Power-MocoBulkCapacitorPCB.step",
       "svg": "",
       "vrml": ""
     },
